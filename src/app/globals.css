@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Importa la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+:root {
+  /* Colores Primarios */
+  --desaturated-dark-cyan: hsl(180, 29%, 50%);
+
+  /* Colores Neutros */
+  --light-grayish-cyan-bg: hsl(180, 52%, 96%);
+  --light-grayish-cyan-filters: hsl(180, 31%, 95%);
+  --dark-grayish-cyan: hsl(180, 8%, 52%);
+  --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  font-size: 15px;
+  background-color: var(--light-grayish-cyan-bg);
+  color: var(--very-dark-grayish-cyan);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  color: var(--desaturated-dark-cyan);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--desaturated-dark-cyan);
+}
+
+button {
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 500;
+  color: var(--desaturated-dark-cyan);
+}
+
+p {
+  color: var(--dark-grayish-cyan);
+  margin: 0;
+  font-weight: 500;
+}
+span {
+  color: var(--desaturated-dark-cyan);
+}
