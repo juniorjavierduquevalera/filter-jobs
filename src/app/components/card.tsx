@@ -9,7 +9,7 @@ const Card = ({ job }: Props) => {
   return (
     <div className="bg-white shadow-md rounded-lg px-6 py-10 md:py-6 mb-10 md:mb-5 flex flex-col md:flex-row md:justify-between md:items-center gap-4 md:gap-0 transition-transform duration-300 ease-in-out transform hover:translate-x-1 hover:border-l-4 hover:cursor-pointer hover:border-navbar hover:shadow-lg">
       <Image
-        className="absolute -mt-16 left-20 block md:hidden"
+        className="absolute -mt-16 left-8 block md:hidden"
         src={job.logo}
         alt={job.company}
         width={50}
