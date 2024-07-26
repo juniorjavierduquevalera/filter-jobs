@@ -37,8 +37,8 @@ const Card = ({ job }: Props) => {
               </span>
             )}
           </div>
-          <h3 className="text-lg font-bold">{job.position}</h3>
-          <p className="text-dark-grayish-cyan">
+          <h3 className="text-lg font-bold hover:text-teal-700">{job.position}</h3>
+          <p className="text-dark-grayish-cyan hover:text-gray-800">
             {job.postedAt} • {job.contract} • {job.location}
           </p>
         </div>
